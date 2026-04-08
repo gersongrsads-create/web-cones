@@ -1,0 +1,70 @@
+{
+  "lang": "pt",
+  "heroSection": {
+    "badge": "🔥 Dia das Mães Incluído!",
+    "superPack": "SUPER PACK",
+    "heading": "+200 Modelos de Cones de Coração",
+    "mainDescription": "👩‍💼 DESIGNS PROFISSIONAIS PRONTOS PARA IMPRIMIR + ACESSO AO EDITÁVEL NO CANVA",
+    "subheading": "Baixe hoje e venda amanhã. Designs que impressionam seus clientes. Perfeitos para buquês, flores, presentes e mais.",
+    "subheadingHighlight": "📥 Receba no seu email na hora",
+    "benefits": [
+      {
+        "title": "Pronto para Vender:",
+        "desc": "Baixe, imprima e venda. Sem designer necessário!"
+      },
+      {
+        "title": "Paga Uma Vez, Ganha Para Sempre:",
+        "desc": "Imprima cópias ilimitadas. Quanto mais vende, mais ganha."
+      },
+      {
+        "title": "Ganhos Reais:",
+        "desc": "+200 designs. Venda cada cone por R$25-R$75."
+      },
+      {
+        "title": "Tutorial Incluído:",
+        "desc": "Vídeo passo a passo. Monte profissionais em minutos."
+      }
+    ],
+    "formats": ["📄 PDF Pronto para Imprimir", "🖼️ PNG, SVG e JPG", "🎥 Tutorial em Vídeo", "👑 Acesso ao Canva", "🎁 4 Bônus Grátis", "♾️ Imprima Para Sempre"],
+    "stats": {
+      "templates": "+200 Designs",
+      "download": "Download Instantâneo",
+      "users": "3,500+ Vendendo",
+      "bonuses": "4 Bônus Grátis"
+    },
+    "cta": "🔥 QUERO COMEÇAR A VENDER AGORA",
+    "ctaArrow": "👇",
+    "socialProof": "+3,500 empreendedoras já estão ganhando"
+  },
+  "pricingSection": {
+    "badge": "PREÇO ESPECIAL HOJE",
+    "heading": "Escolha Seu Caminho para o Sucesso",
+    "subtext": "Acesso imediato por email — Comece hoje mesmo",
+    "basic": {
+      "title": "👶 PACK BÁSICO",
+      "description": "Comece seu negócio com o essencial",
+      "price": "29.90",
+      "features": ["+200 Designs de Cone Coração (PDF)"],
+      "excluded": ["Formatos PNG, SVG e JPG", "Template Editável Canva", "4 Bônus Exclusivos", "Tutorial em Vídeo", "Acesso Vitalício + Atualizações"],
+      "cta": "QUERO O BÁSICO"
+    },
+    "premium": {
+      "badge": "MAIS VENDIDO 🔥",
+      "title": "👑 PACK PREMIUM - GANHE MAIS",
+      "subtitle": "🔥 1.200+ compraram este mês",
+      "subtext": "Arquivos prontos para imprimir — Apenas baixe e use!",
+      "price": "59.90",
+      "info": "Todos os formatos + 4 Bônus Grátis + Acesso Canva",
+      "cta": "💰 QUERO GANHOS MÁXIMOS",
+      "instant": "⚡ Download Digital Instantâneo"
+    },
+    "trust": {
+      "secure": "Pagamento Seguro",
+      "payment": "Cartão ou PayPal",
+      "download": "Download Digital Instantâneo",
+      "guarantee": "Garantia de 7 Dias"
+    },
+    "guaranteeTitle": "Garantia 100% de Reembolso - 7 Dias",
+    "guaranteeText": "Não gostou? Devolvemos 100% do seu dinheiro sem fazer perguntas. Zero risco para você, total segurança."
+  }
+}

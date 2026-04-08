@@ -1,0 +1,70 @@
+{
+  "lang": "en",
+  "heroSection": {
+    "badge": "🔥 Mother's Day Included!",
+    "superPack": "🎀 SUPER PACK",
+    "heading": "200+ Heart Cone Templates",
+    "mainDescription": "+200 PROFESSIONAL EDITABLE TEMPLATES ON CANVA — READY FOR MOTHER'S DAY",
+    "subheading": "Ready to print, assemble & impress. Create stunning, sturdy favors perfect for candy bouquets, flowers & gift kits.",
+    "subheadingHighlight": "📥 Instant Digital Download!",
+    "benefits": [
+      {
+        "title": "Print-Ready:",
+        "desc": "Download, print, assemble. No design skills needed!"
+      },
+      {
+        "title": "One-Time Purchase:",
+        "desc": "Pay once, print unlimited copies forever."
+      },
+      {
+        "title": "High Profit:",
+        "desc": "200+ exclusive templates. Profit $20–$60 per cone!"
+      },
+      {
+        "title": "Super Easy:",
+        "desc": "Video tutorial included. Assemble in minutes, zero experience."
+      }
+    ],
+    "formats": ["📄 PDF", "🖼️ PNG", "✂️ SVG", "📸 JPG", "🎥 Video Tutorial", "🎁 Free Bonuses"],
+    "stats": {
+      "templates": "200+ Templates",
+      "download": "Instant Digital Download",
+      "users": "3,500+ Happy Crafters",
+      "bonuses": "4 Free Bonuses"
+    },
+    "cta": "I WANT MY SUPER PACK NOW",
+    "ctaArrow": "👆",
+    "socialProof": "87 people are viewing this right now"
+  },
+  "pricingSection": {
+    "badge": "TODAY ONLY SPECIAL",
+    "heading": "Choose Your Perfect Pack",
+    "subtext": "Instant Digital Download — delivered to your email!",
+    "basic": {
+      "title": "BASIC PACK",
+      "description": "Print and cut with scissors",
+      "price": "10",
+      "features": ["200+ Heart Cone Templates (PDF)"],
+      "excluded": ["PNG, SVG & JPG Formats", "Editable Canva Template", "4 Exclusive Bonuses", "Video Tutorial", "Lifetime Access + Updates"],
+      "cta": "I WANT THE BASIC PACK 📥"
+    },
+    "premium": {
+      "badge": "BEST SELLER 🔥",
+      "title": "👑 COMPLETE PREMIUM PACK",
+      "subtitle": "🔥 350+ sales this month",
+      "subtext": "Ready-to-print files — Just download and use!",
+      "price": "19.90",
+      "info": "All formats + 4 Free Bonuses + Canva Access",
+      "cta": "I WANT THE COMPLETE PREMIUM 📥",
+      "instant": "⚡ Instant Digital Download"
+    },
+    "trust": {
+      "secure": "Secure Checkout",
+      "payment": "Card or PayPal",
+      "download": "Instant Digital Download",
+      "guarantee": "7-Day Guarantee"
+    },
+    "guaranteeTitle": "7-Day Money-Back Guarantee",
+    "guaranteeText": "Not happy? We'll refund 100% of your money, no questions asked. Zero risk for you!"
+  }
+}
