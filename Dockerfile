@@ -1,3 +1,4 @@
+# Force rebuild - timestamp 2026-04-08T08:31:00Z
 FROM node:20-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
