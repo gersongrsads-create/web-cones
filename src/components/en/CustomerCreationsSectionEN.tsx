@@ -8,12 +8,16 @@ import creation7 from "@/assets/creations-en/7.webp";
 import creation8 from "@/assets/creations-en/8.webp";
 import creation9 from "@/assets/creations-en/9.webp";
 import creationFeatured from "@/assets/creations-en/featured.webp";
+import ultimasEN1 from "@/assets/creations-en/ultimas-1.jpg";
+import ultimasEN2 from "@/assets/creations-en/ultimas-2.jpg";
 
 const scrollToOffer = () => {
   document.getElementById('oferta')?.scrollIntoView({ behavior: 'smooth' });
 };
 
 const images = [
+  { src: ultimasEN1, alt: "Latest customer creation with heart cones" },
+  { src: ultimasEN2, alt: "Latest beautiful heart cone creation" },
   { src: creation2, alt: "Sunflower heart cone - Beautiful and Radiant" },
   { src: creation3, alt: "Happy Mother's Day printed heart cones" },
   { src: creation4, alt: "Mother's Day heart cones side by side" },
@@ -40,6 +44,27 @@ export const CustomerCreationsSectionEN = () => {
           </p>
         </div>
 
+        {/* First two images - large grid */}
+        <div className="max-w-4xl mx-auto mb-6 md:mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-3">
+            {images.slice(0, 2).map((img, index) => (
+              <div
+                key={index}
+                className="rounded-xl overflow-hidden shadow-soft hover:shadow-green transition-shadow cursor-pointer"
+                onClick={scrollToOffer}
+              >
+                <img
+                  src={img.src}
+                  alt={img.alt}
+                  className="w-full h-auto"
+                  loading="eager"
+                  decoding="async"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* Featured image - full width on mobile */}
         <div className="max-w-4xl mx-auto mb-2 md:mb-3">
           <div className="rounded-xl overflow-hidden shadow-soft md:max-w-md md:mx-auto cursor-pointer hover:shadow-green transition-shadow" onClick={scrollToOffer}>
@@ -55,7 +80,7 @@ export const CustomerCreationsSectionEN = () => {
 
         {/* Rest of images in masonry */}
         <div className="columns-2 md:columns-3 lg:columns-4 gap-2 md:gap-3 max-w-4xl mx-auto">
-          {images.map((img, index) => (
+          {images.slice(2).map((img, index) => (
             <div
               key={index}
               className="break-inside-avoid mb-2 md:mb-3 rounded-xl overflow-hidden shadow-soft hover:shadow-green transition-shadow duration-300 cursor-pointer"
@@ -65,7 +90,7 @@ export const CustomerCreationsSectionEN = () => {
                 src={img.src}
                 alt={img.alt}
                 className="w-full h-auto"
-                loading={index < 4 ? "eager" : "lazy"}
+                loading={index < 2 ? "eager" : "lazy"}
                 decoding="async"
               />
             </div>

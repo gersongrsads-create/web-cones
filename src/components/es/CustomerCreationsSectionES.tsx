@@ -8,12 +8,18 @@ import creation7 from "@/assets/creations-en/7.webp";
 import creation8 from "@/assets/creations-en/8.webp";
 import creation9 from "@/assets/creations-en/9.webp";
 import creationFeatured from "@/assets/creations-en/featured.webp";
+import ultima1 from "@/assets/creations-en/ultima-1.jpg";
+import ultima2 from "@/assets/creations-en/ultima-2.jpg";
+import ultima3 from "@/assets/creations-en/ultima-3.jpg";
 
 const scrollToOffer = () => {
   document.getElementById('oferta')?.scrollIntoView({ behavior: 'smooth' });
 };
 
 const images = [
+  { src: ultima1, alt: "Última creación de cliente con corazones" },
+  { src: ultima2, alt: "Última hermosa creación de corazón" },
+  { src: ultima3, alt: "Otra hermosa creación de corazón" },
   { src: creation2, alt: "Corazón de girasol - Hermoso y Radiante" },
   { src: creation3, alt: "Corazones impresos para el Día de Madres" },
   { src: creation4, alt: "Corazones para el Día de Madres lado a lado" },
@@ -40,6 +46,27 @@ export const CustomerCreationsSectionES = () => {
           </p>
         </div>
 
+        {/* Primeras tres imágenes - grid grande */}
+        <div className="max-w-4xl mx-auto mb-6 md:mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-3">
+            {images.slice(0, 3).map((img, index) => (
+              <div
+                key={index}
+                className="rounded-xl overflow-hidden shadow-soft hover:shadow-green transition-shadow cursor-pointer"
+                onClick={scrollToOffer}
+              >
+                <img
+                  src={img.src}
+                  alt={img.alt}
+                  className="w-full h-auto"
+                  loading="eager"
+                  decoding="async"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* Imagen destacada - ancho completo en móvil */}
         <div className="max-w-4xl mx-auto mb-2 md:mb-3">
           <div className="rounded-xl overflow-hidden shadow-soft md:max-w-md md:mx-auto cursor-pointer hover:shadow-green transition-shadow" onClick={scrollToOffer}>
@@ -55,7 +82,7 @@ export const CustomerCreationsSectionES = () => {
 
         {/* Resto de imágenes en mampostería */}
         <div className="columns-2 md:columns-3 lg:columns-4 gap-2 md:gap-3 max-w-4xl mx-auto">
-          {images.map((img, index) => (
+          {images.slice(3).map((img, index) => (
             <div
               key={index}
               className="break-inside-avoid mb-2 md:mb-3 rounded-xl overflow-hidden shadow-soft hover:shadow-green transition-shadow duration-300 cursor-pointer"
@@ -65,7 +92,7 @@ export const CustomerCreationsSectionES = () => {
                 src={img.src}
                 alt={img.alt}
                 className="w-full h-auto"
-                loading={index < 4 ? "eager" : "lazy"}
+                loading={index < 2 ? "eager" : "lazy"}
                 decoding="async"
               />
             </div>
